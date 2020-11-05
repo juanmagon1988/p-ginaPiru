@@ -242,7 +242,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #restaurant-menu .section-title {
-	background: #444 url(../instagram/107526722_1004050393386285_8169766952064203435_n.jpg) center center no-repeat fixed;
+	background: #444 url(../imagenes2/fondo-caja.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 #restaurant-menu .section-title h2 {
@@ -292,7 +292,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 0 0 120px 0;
+	padding: 0 0 100px 0;
 }
 #portfolio .section-title {
 	background: #444 url(../imagenes2/raspberry-4599580_1920.jpg) center center no-repeat fixed;
@@ -365,12 +365,19 @@ ol.type li a:hover {
 	transition-property: transform, opacity;
 }
 .portfolio-item {
-	margin: 20px 0;
+	margin: 10px 0;
 }
 .portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
 }
+
+.img-responsive{
+
+	width:100%;
+    height: auto;
+}
+
 .portfolio-item .hover-bg:before {
 	display: block;
 	content: '';
@@ -412,57 +419,10 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-/* Team Section */
-#team {
-	color: #fff;
-	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
-	background-size: cover;
-}
-#team .overlay {
-	padding: 120px 0 80px 0;
-	background: rgba(0, 0, 0, 0.6);
-}
-#team h2, #team p {
-	color: #fff;
-}
-#team hr {
-	background: #fff;
-}
-#team h3 {
-	color: #fff;
-	font-weight: 400;
-	font-size: 20px;
-	margin: 5px 0;
-}
-#team img {
-	width: 280px;
-}
-#team .thumbnail {
-	background: transparent;
-	border: 0;
-}
-#team .thumbnail .team-img {
-	display: inline-block;
-	position: relative;
-}
-#team .thumbnail .team-img:before {
-	display: block;
-	content: '';
-	position: absolute;
-	top: 8px;
-	right: 8px;
-	bottom: 8px;
-	left: 8px;
-	border: 1px solid rgba(255, 255, 255, 0.2);
-}
-#team .thumbnail .caption {
-	padding-top: 10px;
-}
-#team .thumbnail .caption p {
-	color: rgba(255,255,255,0.7);
-	padding: 0 10px;
-	font-size: 15px;
-}
+
+
+
+
 /* Call Reservation Section */
 #call-reservation {
 	padding: 90px 0;
